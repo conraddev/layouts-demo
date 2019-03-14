@@ -8,11 +8,27 @@
 /* --- Layouts --- */
 /*@import url("pages/campuses.css");*/
 
+/* --- Base --- */
+/* --- Setting base html and *(all) selectors to create 10px grid for future use with REM units --- */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
 
 /* --- Fonts & colors --- */
 body {
   font-family: "Open Sans", "Helvetica", "sans-serif";
-  margin: 0;
 }
 h1, h2, h3 {
   font-family: "Poppins", "sans-serif";
